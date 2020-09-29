@@ -1,8 +1,10 @@
-const express     = require ('express');
-const app		   = express();
+const express = require ('express');
+const app = express();
+const port = 8080;
 
-var http = require('http').Server(app);
-
-http.listen(process.env.PORT || 8080, function(){
-    console.log("We are live on " + 8080);
-});
+app.get('/', (req, res) => {
+    res.send('Hello World')
+})
+app.listen(port, () => {
+    console.log(`Example app listening at http://localhost:${port}`)
+})
