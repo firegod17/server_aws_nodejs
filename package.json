@@ -1,28 +1,15 @@
 {
-  "name": "server_aws_nodejs",
+  "name": "sls-api",
   "version": "1.0.0",
-  "description": "server for aws using nodejs",
-  "main": "index.js",
+  "description": "",
+  "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/firegod17/server_aws_nodejs.git"
-  },
-  "keywords": [
-    "node"
-  ],
-  "author": "firegod17",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/firegod17/server_aws_nodejs/issues"
-  },
-  "homepage": "https://github.com/firegod17/server_aws_nodejs#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "chalk": "^4.1.0",
-    "express": "^4.17.1",
-    "nodemon": "^2.0.4"
+    "uuid": "^3.3.2"
   }
 }
