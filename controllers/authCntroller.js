@@ -1,7 +1,7 @@
 'use strict';
 const docClient = require("../config/config");
 const AWS = require("aws-sdk");
-const UserScheme = require("../model/User");
+const UserScheme = require("../model/Table");
 const uuid = require('uuid').v4;
 
 module.exports.login = function(req, res){
